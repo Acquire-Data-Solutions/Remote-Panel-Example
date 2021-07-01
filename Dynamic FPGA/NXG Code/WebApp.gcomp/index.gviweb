@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="4F9B0780082973A5BD47C78B7A64B4B5A0EF27060D6FCB66790CCBF6E0EBF5454DF2708B4A1FC764BC613F2F04CED3E4D7E873412432BE22BE5C5BFEE778739F" Timestamp="1D76E8E73583B0F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A5ADC545F6AE6ED96AF6EDADD3C63455EB2CBF8E665C1574BA1C6044364739349F9387AD3BF909AF0BB5030A9AB77E8AC24D8EA4EDE9EA3E8AEC630CD6C1E140" Timestamp="1D76E8E9ACBE1FF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -36,9 +36,7 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="45a2fe4a57984109b19916305bc42372" IsReadOnly="[bool]True" Left="[float]0" Name="[string]HTML Execution Time (sec)" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=f995042e91404358873509e70215eda4}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-		</FrontPanelUnplacedItems>
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
 			<WhileLoop Bounds="-831 -185 1130 545" DiagramId="16" Id="15">
 				<LoopIteration Bounds="10 510 15 15" Id="17" />
@@ -311,6 +309,8 @@
 			<Label Height="[float]16" Id="74d29ab8630e4b5088f2c8d63908f3d7" LabelOwner="[UIModel]be535ffdf8854e35a9b3c79038e0081d" Left="[float]148" Text="[string]Start Data Collection" Top="[float]160" Width="[float]109" xmlns="http://www.ni.com/PanelCommon" />
 			<Button BaseName="[string]Button" Content="[string]SAVE" Height="[float]40" Id="fb81d2baac484141b83da060141dbe90" Label="[UIModel]fa2c29b09fea44a3a48267b4e780d388" Left="[float]340" TabIndex="[int]6" Top="[float]180" Value="{DataItemBinding Id=dab7ea09778942c3bcd8507f98931a5b}" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="fa2c29b09fea44a3a48267b4e780d388" LabelOwner="[UIModel]fb81d2baac484141b83da060141dbe90" Left="[float]340" Text="[string]Save Data" Top="[float]160" Width="[float]53" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="45a2fe4a57984109b19916305bc42372" IsReadOnly="[bool]True" Label="[UIModel]bcc110c6f3344172885e8d4f50f4a35d" Left="[float]516" TabIndex="[int]7" Top="[float]180" Value="{DataItemBinding Id=f995042e91404358873509e70215eda4}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="bcc110c6f3344172885e8d4f50f4a35d" LabelOwner="[UIModel]45a2fe4a57984109b19916305bc42372" Left="[float]516" Text="[string]HTML Execution Time (sec)" Top="[float]160" Width="[float]143" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="114bfd17a79548d69e69373c24f900f3" Name="headers" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
