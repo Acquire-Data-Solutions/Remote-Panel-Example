@@ -1,0 +1,5 @@
+[My Computer]
+My Computer="172.22.11.1"
+
+[NI-cRIO-9066-01d63580]
+NI-cRIO-9066-01d63580="localhost"

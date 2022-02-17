@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Custom error codes for Deep Learning Toolkit for LabVEW
+
+
+
+<nifamily familyname="Deep_Learning_Toolkit" displayname="Deep_Learning_Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="403620">
+The toolkit is not activated!!! It is not allowed to have layers with number of outputs/activations greater than 500 in fully connected layers and 10000 in convolutional layers when using the toolkit in evaluation mode. Please reduce the size of the layer or activate the toolkit.
+</nierror>
+<nierror code="403621">
+Unsupported layer type named - Layer Name
+</nierror>
+<nierror code="403622">
+<b>str1</b> Layer is not supported in current version of the toolkit
+</nierror>
+<nierror code="403623">
+Layer type is not specified at section <b>str1</b> in configuration file.
+</nierror>
+<nierror code="403624">
+Unsupported layer type <b>str1</b> in configuration file.
+</nierror>
+<nierror code="403625">
+Unsupported parameter <b>str1</b> in configuration file.
+</nierror>
+<nierror code="403626">
+Input1D layer can be created only as the first layer of the network.
+</nierror>
+<nierror code="403627">
+Input3D layer can be created only as the first layer of the network.
+</nierror>
+<nierror code="403628">
+<b>str1</b> Layer can accept only specific layer types at the input.
+</nierror>
+<nierror code="403629">
+Dropout probability should be between (0..1).  Any value out of this range will be coerced to 0.5.
+</nierror>
+<nierror code="403630">
+Layer named <b>str1</b> is not 3Dimensional.
+</nierror>
+<nierror code="403631">
+Layer named <b>str1</b> is not 1Dimensional.
+</nierror>
+<nierror code="403632">
+The Network must have Name before saving the configuration.
+</nierror>
+<nierror code="403633">
+Selected optimizer type is not supported in the current version of the toolkit.
+</nierror>
+<nierror code="403634">
+Deep Learning Toolkit's deployment license is not actiavted.
+</nierror>
+<nierror code="403635">
+Provided layer is not of <b>str1</b> type.
+</nierror>
+<nierror code="403636">
+<b>str1</b> layer can have only specific types of the layers at the input.
+</nierror>
+<nierror code="403637">
+Dimensions of provided data at the input <b>str1</b> do not correspond to the dimension of the layer specified at creation.
+</nierror>
+<nierror code="403638">
+Input layer dimensions (H+2*Pad, W+2*Pad) are smaller than filer's size.
+</nierror>
+<nierror code="403639">
+Input dimensions at layer <b>str1</b> are smaller than the pooling windows size.
+</nierror>
+<nierror code="403660">
+Number of features at the input of SoftMax Layer should be greater than 1.
+</nierror>
+<nierror code="403661">
+Dataset Error: str1.
+</nierror>
+</nidocument>
